@@ -14,7 +14,7 @@ spec:
         app: myweb
     spec:
       containers:
-      - image: localhost:5000/justme/myweb:1
+      - image: localhost:5000/justme/myweb1:1
         imagePullPolicy: Always
         name: myweb
 
